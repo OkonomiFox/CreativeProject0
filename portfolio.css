@@ -180,6 +180,12 @@ body {
   background-repeat: repeat;
 }
 
+.spacebackground{
+  background-image: url("space.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .aboutpage {
   display: block;
   margin-left: auto;
@@ -200,4 +206,8 @@ body {
   grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
+}
+
+.white {
+  color: white;
 }
